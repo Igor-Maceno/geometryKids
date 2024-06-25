@@ -26,10 +26,10 @@ function loginUser(codigo){
 
     if(!aluno) return
     localStorage.setItem('aluno_logado', aluno.codigo);
-    window.location.href = '../selecao-fase/index.html';
+    window.location.href = 'https://igor-maceno.github.io/geometryKids/selecao-fase/index.html';
 }
 
 function logout(){
     localStorage.removeItem('aluno_logado')   
-    window.location.href = '../selecao-aluno/index.html';
+    window.location.href = 'https://igor-maceno.github.io/geometryKids/selecao-aluno/index.html';
 }
