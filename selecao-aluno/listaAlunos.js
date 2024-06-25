@@ -2,7 +2,7 @@ $(document).ready(() => {
     const alunos = JSON.parse(localStorage.getItem('alunos')) ?? []
     const table = $('#lista-alunos')
 
-    if(alunos.length == 0) {table.append('<span>N„o h· alunos cadastrados</span>');return}
+    if(alunos.length == 0) {table.append('<span>N√£o h√° alunos cadastrados</span>');return}
 
     alunos.map(alun => {
         let html = '';
